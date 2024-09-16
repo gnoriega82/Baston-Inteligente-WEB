@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Habilitar CORS para permitir solicitudes desde Netlify
 app.use(cors({
-    origin: 'https://tu-frontend-en-netlify.netlify.app', // Reemplaza con tu dominio en Netlify
+    origin: 'https://dulcet-shortbread-05b960.netlify.app/', // Reemplaza con tu dominio en Netlify
     credentials: true // Para enviar cookies si es necesario
 }));
 
